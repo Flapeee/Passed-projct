@@ -1,0 +1,158 @@
+.productDetail {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.productDetailTipsStyle {
+    text-align: center;
+    font-size: 30px;
+    line-height: 60vh;
+    width: 100%;
+}
+
+.checkOutStyle {
+    width: 60%;
+    height: 100%;
+    font-size: 18px;
+    overflow: scroll;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.laoye-table {
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.urlLink {
+    float: left;
+    margin: 15px 0 15px 20px;
+    font-size: 15px;
+    width: 95%;
+}
+
+.urlLink li {
+    float: left;
+    margin: 5px 0 0 5px;
+}
+
+.goodsPic {
+    float: left;
+    width: 363px;
+    height: 296px;
+    border: 1px solid rgba(220, 220, 220, 1);
+    background: url(../imagemap/food.jpg) no-repeat;
+    background-position: -70px -50px;
+    background-size: 140%;
+    margin: 10px 0 0 20px;
+}
+
+.goodsDetail {
+    float: left;
+    width: 50%;
+    margin: 10px 0 0 30px;
+}
+
+.redTip {
+    color: rgba(225, 34, 40, 1);
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+}
+
+.detailRed {
+    float: left;
+    width: 90%;
+    height: 180px;
+    background-color: rgba(200, 22, 35, 0.1);
+}
+
+.priceCol, .unitCol, .stockCol {
+    height: 60px;
+}
+
+.priceTag {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.priceValue {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(225, 34, 40, 1);
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+
+
+.unitTag, .stockTag {
+    float: left;
+    width: 50px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.unitValue, .stockValue {
+    float: left;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+
+.addShoping {
+    margin: 10px 0 0 0;
+}
+
+.addShoping input {
+    float: left;
+    height: 40px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px 2px 0 20px;
+    text-align: center;
+}
+
+.controlNum {
+    float: left;
+    width: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.add, .sub {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(247, 247, 247, 1);
+    cursor: pointer;
+}
+
+.addShopCart {
+    float: left;
+    height: 40px;
+    width: 160px;
+    background-color: rgba(200, 22, 35, 1);
+    color: white;
+    margin: 20px 0 0 20px;
+    border: 0;
+    font-weight: bold;
+}

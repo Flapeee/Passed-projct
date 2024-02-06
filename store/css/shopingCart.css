@@ -1,0 +1,114 @@
+.shoppingCart {
+    width: 100%;
+}
+
+.productListInCart {
+    width: 100%;
+    overflow: scroll;
+    height: 88vh;
+}
+
+.noProducts {
+    text-align: center;
+    font-size: 30px;
+    line-height: 60vh;
+    height: 88vh;
+    width: 100%;
+}
+
+
+.operationShoppingCart {
+    height: 12vh;
+    width: 100%;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.product {
+    width: 100%;
+    height: 40px;
+    background-color: #FCEBFF;
+    margin: 1px 0 1px 0;
+}
+
+.productInfo {
+    float: left;
+    width: 86%;
+    margin-left: 2%;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.productTotal {
+    float: left;
+    width: 12%;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.operationTotal, .operationRemoveAll, .operationCheckOut {
+    float: left;
+    width: 33%;
+    height: 11.6vh;
+    text-align: center;
+    line-height: 55px;
+    margin: 1px;
+    border-style: none;
+    font-size: 20px;
+    background-color: #E1BEE7;
+}
+
+.back {
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.back button {
+    height: 40px;
+    width: 160px;
+}
+
+
+.form {
+    margin-top: 30px;
+    float: left;
+    width: 65%;
+    height: 100%;
+}
+
+.inputLine {
+    width: 65%;
+}
+
+.form input {
+    float: left;
+    width: 240px;
+    height: 30px;
+    margin: 5px;
+}
+
+.label {
+    float: left;
+    width: 80px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.submit {
+    width: 65%;
+}
+
+.submit input {
+    width: 140px;
+    height: 40px;
+    margin-left: 85px;
+}
